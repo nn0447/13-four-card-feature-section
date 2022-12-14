@@ -1,0 +1,97 @@
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#box{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: repeat(4, 110px);
+    gap: 30px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box-one{
+    grid-area: 2/1/4/2;
+    background-color: white;
+    border-radius: 5px;
+}
+#box-two{
+    grid-area: 1/2/3/3;
+    background-color: white;
+    border-radius: 5px;
+
+}
+#box-three{
+    grid-area: 3/2/5/3;
+    background-color: white;
+    border-radius: 5px;
+}
+#box-four{
+    grid-area: 2/3/4/4;
+    background-color: white;
+    border-radius: 5px;
+}
+#hr-one{
+    background-color: hsl(180, 62%, 55%);
+    border-style: none;
+    height: 5px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#hr-two{
+    background-color: hsl(0, 78%, 62%);
+    border-style: none;
+    height: 5px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+#hr-three{
+    background-color: hsl(34, 97%, 64%);
+    border-style: none;
+    height: 5px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+#hr-four{
+    background-color: hsl(212, 86%, 64%);
+    border-style: none;
+    height: 5px;
+    margin-top: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+}
+h2{
+    color: hsl(234, 12%, 34%);
+}
+p{
+    color: hsl(229, 6%, 66%);
+}
+.font-weight{
+    font-weight: 100;
+}
+.center{
+    text-align: center;
+}
+img{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+@media(max-width: 800px){
+    #box{
+    display: block;
+    
+    }   
+ 
+}
